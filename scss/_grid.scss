@@ -17,7 +17,7 @@ margin: auto;
       width: 100%;
     }
 
-    @media (min-width: 500px) {
+    @media (min-width: 400px) {
        @for $i from 1 through 12 {
         .col-#{$i} {
           width: (100% / 12) * $i;
